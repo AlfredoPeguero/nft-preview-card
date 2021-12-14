@@ -104,7 +104,9 @@ body {
   margin-left: 5px;
   color: hsl(0, 0%, 100%);
 }
-
+.overlay {
+  display: none;
+}
 @media (min-width: 1200px) {
   .card_title:hover {
     cursor: pointer;
