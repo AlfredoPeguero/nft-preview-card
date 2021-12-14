@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.line {
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: hsl(217, 54%, 11%);
+}
+.container {
+  align-items: center;
+  max-width: 310px;
+  margin: auto;
+  padding: 20px;
+  background: hsl(216, 50%, 16%);
+  border-radius: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin: 15px 0;
+}
+.card_description {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.card_price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.quantity {
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+}
+.quantity img {
+  width: 10px;
+  margin-right: 5px;
+}
+.timeleft {
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.5);
+  display: flex;
+  align-items: center;
+}
+.timeleft img {
+  width: 20px;
+  margin-right: 5px;
+}
+.avatar {
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.5);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.avatar img {
+  border: 1px solid hsl(0, 0%, 100%);
+  width: 12%;
+  border-radius: 50%;
+}
+.avatar .author {
+  margin-left: 15px;
+  font-size: 14px;
+  display: flex;
+}
+.avatar .name {
+  margin-left: 5px;
+  color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: none;
+  }
+}
